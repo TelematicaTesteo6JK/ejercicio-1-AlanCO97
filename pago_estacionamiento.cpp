@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 /*
@@ -20,12 +21,26 @@ float pago_estacionamiento(int horas)
 	return cant;
 }
 
+string veredicto(float a, float b)
+{
+	if (a == b)
+		return "pass";
+	else
+		return "fail";
+}
+
 void casos_de_prueba(){
 
     cout << "TEST CASES" << endl;
     // Agrega tus casos de prueba
 
+		cout << "valor ";
+		cout << " resultadoEsperado";
+		cout << " resultadoObtenido";
+		cout << " veredicto" << endl;
 
+		cout << " 5          " << "  50           " << pago_estacionamiento(5) << "                 "   << veredicto(50, pago_estacionamiento(5)) << endl;
+		cout << " 8          " << "  72           " << pago_estacionamiento(8) << "                 "   << veredicto(72, pago_estacionamiento(8)) << endl;
 
     cout << endl;
 
