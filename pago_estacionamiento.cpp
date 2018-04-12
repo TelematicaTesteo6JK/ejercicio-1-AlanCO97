@@ -39,9 +39,14 @@ void casos_de_prueba(){
 		cout << " resultadoObtenido";
 		cout << " veredicto" << endl;
 
+		cout << " 3          " << "  30           " << pago_estacionamiento(3) << "                 "   << veredicto(30, pago_estacionamiento(3)) << endl;
+		cout << " 9          " << "  81           " << pago_estacionamiento(9) << "                 "   << veredicto(81, pago_estacionamiento(9)) << endl;
+		cout << " 15          " << "  105           " << pago_estacionamiento(15) << "                 "   << veredicto(105, pago_estacionamiento(15)) << endl;
+		cout << " 1          " << "  10           " << pago_estacionamiento(1) << "                 "   << veredicto(10, pago_estacionamiento(1)) << endl;
 		cout << " 5          " << "  50           " << pago_estacionamiento(5) << "                 "   << veredicto(50, pago_estacionamiento(5)) << endl;
-		cout << " 8          " << "  72           " << pago_estacionamiento(8) << "                 "   << veredicto(72, pago_estacionamiento(8)) << endl;
-
+		cout << " 6          " << "  54           " << pago_estacionamiento(6) << "                 "   << veredicto(54, pago_estacionamiento(6)) << endl;
+		cout << " 10          " << "  90           " << pago_estacionamiento(10) << "                 "   << veredicto(90, pago_estacionamiento(10)) << endl;
+		cout << " 11          " << "  77           " << pago_estacionamiento(11) << "                 "   << veredicto(77, pago_estacionamiento(11)) << endl;
     cout << endl;
 
 }
